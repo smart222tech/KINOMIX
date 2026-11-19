@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OpenStream</string>
+    <string name="app_name">KINOMIX</string>
     <string name="download_channel_name">Downloads</string>
     <string name="nav_home">Start</string>
     <string name="nav_search">Suche</string>
@@ -386,8 +386,8 @@
     <string name="st_restored_counts">%1$s wiederhergestellt</string>
     <string name="st_restored_settings">Einstellungen wiederhergestellt; Ihre Mediathek war bereits aktuell</string>
     <string name="st_could_not_restore">Diese Datei konnte nicht wiederhergestellt werden</string>
-    <string name="st_not_backup">Dies ist kein OpenStream-Backup</string>
-    <string name="st_backup_newer">Dieses Backup stammt aus einer neueren OpenStream-Version</string>
+    <string name="st_not_backup">Dies ist kein KINOMIX-Backup</string>
+    <string name="st_backup_newer">Dieses Backup stammt aus einer neueren KINOMIX-Version</string>
     <string name="st_merge_note">Wird zusammengeführt; nichts auf diesem Gerät wird gelöscht</string>
     <string name="st_export_diag">Diagnose exportieren</string>
     <string name="st_diag_hint">Gerätedetails und aktuelles Protokoll, für Fehlerberichte</string>
@@ -407,15 +407,15 @@
     <string name="st_could_not_github">GitHub konnte nicht erreicht werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.</string>
     <string name="st_could_not_catalog">Katalog konnte nicht erreicht werden</string>
     <string name="st_android_confirm_update">Android bittet Sie, das Update zu bestätigen. Verlauf, gespeicherte Titel und Downloads bleiben erhalten.</string>
-    <string name="st_allow_install_note">Erlauben Sie OpenStream zuerst, Updates zu installieren, und tippen Sie dann zurück hier auf Installieren.</string>
+    <string name="st_allow_install_note">Erlauben Sie KINOMIX zuerst, Updates zu installieren, und tippen Sie dann zurück hier auf Installieren.</string>
     <string name="st_storage_help">Speicher und Hilfe</string>
     <string name="st_on_device">Auf diesem Gerät</string>
     <string name="st_crash_include">Enthält %1$d Absturzbericht</string>
     <string name="st_repo_data_note">Repositories liefern Daten, keinen Code</string>
-    <string name="st_repo_data_body">Eine Erweiterung wählt und konfiguriert nur einen Resolver, der bereits in OpenStream enthalten ist, sodass eine Drittanbieter-Liste keinen eigenen Code auf Ihrem Gerät ausführen kann.</string>
+    <string name="st_repo_data_body">Eine Erweiterung wählt und konfiguriert nur einen Resolver, der bereits in KINOMIX enthalten ist, sodass eine Drittanbieter-Liste keinen eigenen Code auf Ihrem Gerät ausführen kann.</string>
     <string name="st_source_install_note">Installieren Sie mindestens eine Quell-Erweiterung, sonst hat die Wiedergabe nichts aufzulösen.</string>
     <string name="st_extensions_data_only">Erweiterungen sind nur Daten: Sie konfigurieren mitgelieferte Resolver und können keinen Code ausführen.</string>
-    <string name="st_race_note">OpenStream fragt beim Drücken auf Abspielen alle aktivierten Quellen ab und behält das schnellste Ergebnis.</string>
+    <string name="st_race_note">KINOMIX fragt beim Drücken auf Abspielen alle aktivierten Quellen ab und behält das schnellste Ergebnis.</string>
     <string name="st_add_repo_hint">Repository oder Stremio-Add-on hinzufügen</string>
     <string name="st_add_repository">Repository hinzufügen</string>
     <string name="st_repo_placeholder">Fügen Sie einen Link zu einer index.json oder zur manifest.json eines Stremio-Add-ons ein (stremio://-Links funktionieren auch)</string>
@@ -482,8 +482,8 @@
     <string name="pf_keep_one">Mindestens ein Profil behalten</string>
     <string name="pf_this_history">Verlauf, Weiter ansehen und Positionen dieses Profils</string>
     <string name="pf_clear_profile_history">Dies löscht dessen Verlauf und Positionen, einschließlich Weiter ansehen.</string>
-    <string name="pf_welcome">Willkommen bei OpenStream</string>
-    <string name="pf_thanks">Danke, dass Sie OpenStream ausprobieren.</string>
+    <string name="pf_welcome">Willkommen bei KINOMIX</string>
+    <string name="pf_thanks">Danke, dass Sie KINOMIX ausprobieren.</string>
     <string name="pf_needs_playback">Noch lässt sich nicht alles abspielen</string>
     <string name="li_your_lists">Ihre Listen</string>
     <string name="li_new_list">Neue Liste</string>
@@ -529,9 +529,9 @@
     <string name="up_attention">Achtung erforderlich</string>
     <string name="up_source_code">Quellcode</string>
     <string name="up_website">Website</string>
-    <string name="up_version_format">OpenStream %1$s</string>
-    <string name="we_title">Willkommen bei OpenStream</string>
-    <string name="we_body">OpenStream fragt beim Drücken auf Abspielen alle aktivierten Quellen ab und behält das schnellste Ergebnis.</string>
+    <string name="up_version_format">KINOMIX %1$s</string>
+    <string name="we_title">Willkommen bei KINOMIX</string>
+    <string name="we_body">KINOMIX fragt beim Drücken auf Abspielen alle aktivierten Quellen ab und behält das schnellste Ergebnis.</string>
     <string name="we_offline_note">Laden Sie Folgen von der Seite einer Serie herunter und sehen Sie sie ohne Verbindung an.</string>
     <string name="ps_born">Geboren %1$s</string>
     <string name="ps_known_for">Bekannt für</string>
@@ -552,7 +552,7 @@
     <string name="er_vidking_integrity">Vidking-Payload hat die Integritätsprüfung nicht bestanden</string>
     <string name="er_vidking_empty">Vidking hat eine leere Payload zurückgegeben</string>
     <string name="er_subsource_no_token">SubSource hat kein Download-Token geliefert</string>
-    <string name="er_tmdb_links">OpenStream öffnet TMDB-Film- und TV-Links</string>
+    <string name="er_tmdb_links">KINOMIX öffnet TMDB-Film- und TV-Links</string>
     <string name="er_offline_short">Sie sind offline</string>
     <string name="er_download_started">Wird heruntergeladen. Zu finden unter Downloads.</string>
     <string name="er_downloading_update">Update wird heruntergeladen</string>
@@ -694,7 +694,7 @@
     <string name="dl_progress_full">%1$d%% · %2$s von %3$s</string>
     <string name="dl_progress_short">%1$d%% · %2$s</string>
     <string name="dl_saved_suffix">%1$s · bei jedem Download gespeichert</string>
-    <string name="up_latest_version">OpenStream %1$s ist die neueste Version.</string>
+    <string name="up_latest_version">KINOMIX %1$s ist die neueste Version.</string>
     <string name="up_released_on">Veröffentlicht am %1$s</string>
     <string name="up_whats_in">Neu in %1$s</string>
     <string name="up_starting_download">Download wird gestartet…</string>
@@ -725,7 +725,7 @@
     <string name="st_group_pip">Bild-in-Bild</string>
     <string name="st_pip_footer">Play/Pause sitzt immer in der Mitte. Android zeigt höchstens drei Schaltflächen.</string>
     <string name="st_crash_include_other">Enthält %1$d Absturzberichte</string>
-    <string name="up_version_build">OpenStream %1$s (%2$d)</string>
+    <string name="up_version_build">KINOMIX %1$s (%2$d)</string>
     <string name="cd_rated_format">Mit %1$s von 10 bewertet</string>
 
     <!-- Round 3: delegate-reported leftovers -->
@@ -855,7 +855,7 @@
     <string name="dl_save_to_storage_failed">Konnte nicht im Speicher gesichert werden</string>
     <string name="local_import_files">Videos importieren</string>
     <string name="local_no_files_title">Keine lokalen Videos</string>
-    <string name="local_no_files_body">Importiere Videodateien von deinem Gerät, um sie in OpenStream anzusehen</string>
+    <string name="local_no_files_body">Importiere Videodateien von deinem Gerät, um sie in KINOMIX anzusehen</string>
     <string name="local_file">Lokales Video</string>
     <string name="local_delete_confirm_title">Lokales Video entfernen?</string>
     <string name="local_delete_confirm_body">Es verschwindet nur aus dieser Liste. Die Datei bleibt auf deinem Gerät.</string>
@@ -871,7 +871,7 @@
     <string name="dl_save_in_progress">Wird bereits in Downloads gesichert</string>
     <string name="dl_storage_permission_needed">Erlaube den Speicherzugriff, um Videos in deinem Download-Ordner zu sichern</string>
     <string name="dl_save_unsupported">Dieser Download lässt sich nicht als einzelne Videodatei sichern</string>
-    <string name="dl_save_protected">Dieser Stream ist geschützt und lässt sich nur in OpenStream abspielen</string>
+    <string name="dl_save_protected">Dieser Stream ist geschützt und lässt sich nur in KINOMIX abspielen</string>
     <plurals name="local_import_success">
         <item quantity="one">%1$d Video importiert</item>
         <item quantity="other">%1$d Videos importiert</item>
