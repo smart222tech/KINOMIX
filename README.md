@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="docs/assets/icon.png" width="128" alt="OpenStream app icon">
+<img src="docs/assets/icon.png" width="128" alt="KINOMIX app icon">
 
-# OpenStream
+# KINOMIX
 
 **Movies, series and anime in one native Android app.**
 
 Browse what's trending, pick up where you left off, and watch with a real player:
 quality switching, subtitles, dubs, downloads and picture-in-picture.
 
-[![Latest release](https://img.shields.io/github/v/release/Ivorisnoob/OpenStream?color=FF5F8A&label=release)](https://github.com/Ivorisnoob/OpenStream/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/Ivorisnoob/KINOMIX?color=FF5F8A&label=release)](https://github.com/Ivorisnoob/KINOMIX/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-1A1030)](LICENSE)
 ![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.3-7F52FF?logo=kotlin&logoColor=white)
 
-[**Download the latest APK**](https://github.com/Ivorisnoob/OpenStream/releases/latest)
+[**Download the latest APK**](https://github.com/Ivorisnoob/KINOMIX/releases/latest)
 
 </div>
 
@@ -71,7 +71,7 @@ quality switching, subtitles, dubs, downloads and picture-in-picture.
 
 ## How streams work
 
-OpenStream doesn't host any video. Titles and artwork come from [TMDB](https://www.themoviedb.org/).
+KINOMIX doesn't host any video. Titles and artwork come from [TMDB](https://www.themoviedb.org/).
 Streams come from **source extensions** listed in a JSON catalog. The app checks every installed
 source in parallel, ranks the results, and plays the best one. If a source fails, it moves on to
 the next.
@@ -86,8 +86,8 @@ You need Android Studio (or JDK 17 and the Android SDK) and a free
 [TMDB API key](https://www.themoviedb.org/settings/api).
 
 ```bash
-git clone https://github.com/Ivorisnoob/OpenStream.git
-cd OpenStream
+git clone https://github.com/Ivorisnoob/KINOMIX.git
+cd KINOMIX
 echo "TMDB_API_KEY=your_key_here" >> local.properties
 ./gradlew installDebug
 ```
