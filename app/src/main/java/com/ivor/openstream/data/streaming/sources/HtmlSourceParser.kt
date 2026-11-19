@@ -72,7 +72,7 @@ class HtmlSourceParser(private val definition: HtmlSourceDefinition) {
                     url.substringBefore('?').matches(Regex(".*\\.(mp4|m4v|webm)$", RegexOption.IGNORE_CASE)) -> PlaybackLinkKind.DIRECT_FILE
                     else -> PlaybackLinkKind.DIRECT_FILE
                 }
-                add(SourcePlaybackOption(definition.id, definition.name, pageUrl, url, kind, element.attr("type").ifBlank { null }, pageUrl))
+                add(SourcePlaybackOption(definition.id, definition.name, pageUrl, url, kind, element.attr("type").takeIf { it.isNotBlank() }, pageUrl))
             }
             document.select(definition.iframeSelector).forEach { element ->
                 val url = safeHttpUrl(pageUrl, element.attr("src")) ?: return@forEach
