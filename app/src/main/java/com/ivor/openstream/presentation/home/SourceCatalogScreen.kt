@@ -50,6 +50,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ivor.openstream.data.streaming.sources.SourceFirstCatalog
+import com.ivor.openstream.presentation.player.SourcePlaybackActivity
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -143,9 +144,11 @@ fun SourceCatalogScreen(
             if (state.loading) CircularProgressIndicator()
             state.playback.forEach { option ->
                 Button(onClick = {
-                    val intent = Intent(Intent.ACTION_VIEW).apply {
-                        setDataAndType(android.net.Uri.parse(option.playbackUrl), option.mimeType ?: "video/*")
-                        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    val intent = Intent(context, SourcePlaybackActivity::class.java).apply {
+                        putExtra(SourcePlaybackActivity.EXTRA_URL, option.playbackUrl)
+                        putExtra(SourcePlaybackActivity.EXTRA_MIME, option.mimeType)
+                        putExtra(SourcePlaybackActivity.EXTRA_REFERER, option.referer)
+                        putExtra(SourcePlaybackActivity.EXTRA_TITLE, title.title)
                     }
                     runCatching { context.startActivity(intent) }
                 }) {
