@@ -36,6 +36,7 @@ import androidx.tv.material3.NavigationDrawerItem
 import androidx.tv.material3.Text
 import androidx.tv.material3.rememberDrawerState
 import com.ivor.openstream.presentation.player.PlayerScreen
+import com.ivor.openstream.presentation.home.SourceCatalogScreen
 
 private object TvRoutes {
     const val DETAILS = "tv_details/{mediaType}/{animeId}"
@@ -131,12 +132,7 @@ private fun TvAppScaffold(navController: NavHostController) {
             modifier = Modifier.fillMaxSize()
         ) {
             composable(TvDestination.HOME.route) {
-                TvHomeScreen(
-                    onOpenTitle = { mediaType, id -> navController.navigate(TvRoutes.details(mediaType, id)) },
-                    onPlay = { mediaType, id, season, episode ->
-                        navController.navigate(TvRoutes.player(mediaType, id, season, episode))
-                    }
-                )
+                SourceCatalogScreen()
             }
 
             composable(TvDestination.SEARCH.route) {
