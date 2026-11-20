@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Brand / system -->
-    <string name="app_name">OpenStream</string>
+    <string name="app_name">KINOMIX</string>
     <string name="download_channel_name">Downloads</string>
 
     <!-- Bottom navigation / rail -->
@@ -407,8 +407,8 @@
     <string name="st_restored_counts">Restored %1$s</string>
     <string name="st_restored_settings">Restored settings; your library was already up to date</string>
     <string name="st_could_not_restore">Couldn\'t restore that file</string>
-    <string name="st_not_backup">This isn\'t an OpenStream backup</string>
-    <string name="st_backup_newer">This backup is from a newer version of OpenStream</string>
+    <string name="st_not_backup">This isn\'t an KINOMIX backup</string>
+    <string name="st_backup_newer">This backup is from a newer version of KINOMIX</string>
     <string name="st_merge_note">Merges in; nothing on this device is deleted</string>
     <string name="st_export_diag">Export diagnostics</string>
     <string name="st_diag_hint">Device details and the recent log, for bug reports</string>
@@ -428,15 +428,15 @@
     <string name="st_could_not_github">Couldn\'t reach GitHub. Check your connection and try again.</string>
     <string name="st_could_not_catalog">Couldn\'t reach the catalog</string>
     <string name="st_android_confirm_update">Android will ask you to confirm the update. Your history, saved titles and downloads are kept.</string>
-    <string name="st_allow_install_note">Allow OpenStream to install updates first, then come back and tap Install.</string>
+    <string name="st_allow_install_note">Allow KINOMIX to install updates first, then come back and tap Install.</string>
     <string name="st_storage_help">Storage and help</string>
     <string name="st_on_device">On this device</string>
     <string name="st_crash_include">Includes %1$d crash report</string>
     <string name="st_repo_data_note">Repositories ship data, not code</string>
-    <string name="st_repo_data_body">An extension only picks and configures a resolver that already ships inside OpenStream, so a third-party list cannot run its own code on your device.</string>
+    <string name="st_repo_data_body">An extension only picks and configures a resolver that already ships inside KINOMIX, so a third-party list cannot run its own code on your device.</string>
     <string name="st_source_install_note">Install at least one source extension or playback will have nothing to resolve.</string>
     <string name="st_extensions_data_only">Extensions are data only: they configure resolvers that ship with the app and can\'t run code.</string>
-    <string name="st_race_note">OpenStream races every enabled source when you press Play and keeps the fastest result.</string>
+    <string name="st_race_note">KINOMIX races every enabled source when you press Play and keeps the fastest result.</string>
     <string name="st_add_repo_hint">Add a repository or Stremio add-on</string>
     <string name="st_add_repository">Add repository</string>
     <string name="st_repo_placeholder">Paste a link to an index.json, or a Stremio add-on\'s manifest.json (stremio:// links work too)</string>
@@ -505,8 +505,8 @@
     <string name="pf_keep_one">Keep at least one profile</string>
     <string name="pf_this_history">This profile\'s history, Continue Watching and resume positions</string>
     <string name="pf_clear_profile_history">This clears its watch history and resume points, including Continue Watching.</string>
-    <string name="pf_welcome">Welcome to OpenStream</string>
-    <string name="pf_thanks">Thanks for trying OpenStream.</string>
+    <string name="pf_welcome">Welcome to KINOMIX</string>
+    <string name="pf_thanks">Thanks for trying KINOMIX.</string>
     <string name="pf_needs_playback">Not everything plays yet</string>
 
     <!-- Lists / saved -->
@@ -558,11 +558,11 @@
     <string name="up_attention">Attention Required</string>
     <string name="up_source_code">Source code</string>
     <string name="up_website">Website</string>
-    <string name="up_version_format">OpenStream %1$s</string>
+    <string name="up_version_format">KINOMIX %1$s</string>
 
     <!-- Welcome -->
-    <string name="we_title">Welcome to OpenStream</string>
-    <string name="we_body">OpenStream races every enabled source when you press Play and keeps the fastest result.</string>
+    <string name="we_title">Welcome to KINOMIX</string>
+    <string name="we_body">KINOMIX races every enabled source when you press Play and keeps the fastest result.</string>
     <string name="we_offline_note">Download episodes from any show\'s page and watch them without a connection.</string>
 
     <!-- Person -->
@@ -587,7 +587,7 @@
     <string name="er_vidking_integrity">Vidking payload failed integrity validation</string>
     <string name="er_vidking_empty">Vidking returned an empty payload</string>
     <string name="er_subsource_no_token">SubSource gave no download token</string>
-    <string name="er_tmdb_links">OpenStream opens TMDB movie and TV links</string>
+    <string name="er_tmdb_links">KINOMIX opens TMDB movie and TV links</string>
     <string name="er_offline_short">You\'re offline</string>
     <string name="er_download_started">Downloading. Find it in Downloads.</string>
     <string name="er_downloading_update">Downloading update</string>
@@ -757,7 +757,7 @@
     <string name="dl_saved_suffix">%1$s · saved with every download</string>
 
     <!-- Supplement: update screen -->
-    <string name="up_latest_version">OpenStream %1$s is the latest version.</string>
+    <string name="up_latest_version">KINOMIX %1$s is the latest version.</string>
     <string name="up_released_on">Released %1$s</string>
     <string name="up_whats_in">What\'s in %1$s</string>
     <string name="up_starting_download">Starting download…</string>
@@ -792,7 +792,7 @@
     <string name="st_group_pip">Picture-in-picture</string>
     <string name="st_pip_footer">Play/pause always sits in the middle. Android shows three buttons at most.</string>
     <string name="st_crash_include_other">Includes %1$d crash reports</string>
-    <string name="up_version_build">OpenStream %1$s (%2$d)</string>
+    <string name="up_version_build">KINOMIX %1$s (%2$d)</string>
     <string name="cd_rated_format">Rated %1$s out of 10</string>
 
     <!-- Round 3: delegate-reported leftovers -->
@@ -962,7 +962,7 @@
         <item quantity="other">%1$d videos imported</item>
     </plurals>
     <string name="local_no_files_title">No local videos</string>
-    <string name="local_no_files_body">Import video files from your device to watch them in OpenStream</string>
+    <string name="local_no_files_body">Import video files from your device to watch them in KINOMIX</string>
     <string name="local_file">Local video</string>
     <string name="local_delete_confirm_title">Remove local video?</string>
     <string name="local_delete_confirm_body">It only leaves this list. The file stays on your device.</string>
@@ -978,7 +978,7 @@
     <string name="dl_save_in_progress">Already saving this one to Downloads</string>
     <string name="dl_storage_permission_needed">Allow storage access to save videos to your Downloads folder</string>
     <string name="dl_save_unsupported">This download can’t be saved as a single video file</string>
-    <string name="dl_save_protected">This stream is protected, so it can only play inside OpenStream</string>
+    <string name="dl_save_protected">This stream is protected, so it can only play inside KINOMIX</string>
 
     <!-- Issue 19: delete confirmation + download source picker -->
     <string name="dl_delete_confirm">Delete download?</string>
@@ -1163,7 +1163,7 @@
     <string name="st_lang_auto">Let each video decide</string>
     <string name="st_volume_boost_hint">Every video starts at this loudness</string>
     <string name="st_start_screen">Start screen</string>
-    <string name="st_start_screen_hint">The tab OpenStream opens on. Applies the next time the app starts.</string>
+    <string name="st_start_screen_hint">The tab KINOMIX opens on. Applies the next time the app starts.</string>
     <string name="st_home_rows">Rows on Home</string>
     <string name="st_home_rows_footer">Turn rows off, or move them with the arrows. Rows with nothing to show stay hidden.</string>
     <string name="st_home_reset">Reset Home layout</string>
@@ -1191,10 +1191,10 @@
     <string name="st_storage_sd">SD card or USB storage</string>
     <string name="st_storage_free">%1$s free of %2$s</string>
     <string name="st_storage_none">No SD card or USB storage found. Insert one to keep downloads there.</string>
-    <string name="st_storage_move_body">%1$s of downloads will move there. OpenStream restarts when it is done.</string>
+    <string name="st_storage_move_body">%1$s of downloads will move there. KINOMIX restarts when it is done.</string>
     <string name="st_storage_move">Move</string>
     <string name="st_storage_moving">Moving downloads</string>
-    <string name="st_storage_moving_body">%1$d%% done. Keep OpenStream open.</string>
+    <string name="st_storage_moving_body">%1$d%% done. Keep KINOMIX open.</string>
     <string name="st_storage_move_failed">Could not move downloads. They are still where they were.</string>
     <string name="st_storage_missing">The SD card with your downloads is not inserted</string>
     <string name="st_charging_only">Only while charging</string>
@@ -1206,10 +1206,10 @@
     <string name="st_auto_delete_week">After a week</string>
     <string name="st_check_updates_hint">You have version %1$s</string>
     <string name="st_report_problem">Report a problem</string>
-    <string name="st_report_problem_hint">Ask in the OpenStream Telegram chat</string>
+    <string name="st_report_problem_hint">Ask in the KINOMIX Telegram chat</string>
     <string name="st_licenses">Open-source licences</string>
-    <string name="st_licenses_hint">The projects OpenStream is built with</string>
-    <string name="st_license_app">OpenStream is open source under the MIT License. Tap a project to read about it and its licence.</string>
+    <string name="st_licenses_hint">The projects KINOMIX is built with</string>
+    <string name="st_license_app">KINOMIX is open source under the MIT License. Tap a project to read about it and its licence.</string>
     <string name="st_license_see_project">Licence on the project page</string>
     <string name="st_license_tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</string>
     <string name="st_group_downloading">Downloading</string>

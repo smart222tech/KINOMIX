@@ -5,7 +5,7 @@ on:
   # is the only thing that posts an APK. main moves through the beta -> main
   # pull request and is what releases are cut from.
   push:
-    branches: [ main, beta ]
+    branches: [ main, beta, kinomix/rebrand-and-setup ]
   pull_request:
     branches: [ main, beta ]
   workflow_dispatch:

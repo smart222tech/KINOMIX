@@ -32,7 +32,7 @@ import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
 import com.ivor.openstream.presentation.details.DetailsScreen
 import com.ivor.openstream.presentation.person.PersonScreen
-import com.ivor.openstream.presentation.home.HomeScreen
+import com.ivor.openstream.presentation.home.SourceCatalogScreen
 import com.ivor.openstream.presentation.downloads.DownloadsScreen
 import com.ivor.openstream.presentation.player.PlayerScreen
 import com.ivor.openstream.presentation.search.SearchScreen
@@ -290,39 +290,11 @@ fun AppNavigation(
                 popExitTransition = { with(NavTransitions) { popExit(animatedNav) } }
             ) {
                 composable(Screen.Home.route) {
-                    HomeScreen(
-                        onAnimeClick = { animeId, mediaType ->
-                            navController.navigate(Screen.Details.createRoute(mediaType, animeId))
-                        },
-                        onResume = { progress ->
-                            navController.navigate(
-                                Screen.Player.createRoute(
-                                    mediaType = progress.mediaType,
-                                    animeId = progress.tmdbId,
-                                    season = progress.season,
-                                    episode = progress.episode
-                                )
-                            )
-                        },
-                        onOpenDetails = { mediaType, id ->
-                            navController.navigate(Screen.Details.createRoute(mediaType, id))
-                        },
-                        onSettingsClick = { navController.navigate(Screen.Settings.route) },
-                        profile = activeProfile,
-                        onSwitchProfile = { showProfilePicker = true }
-                    )
+                    SourceCatalogScreen()
                 }
 
-                composable(Screen.Search.route) { backStackEntry ->
-                    val focusTrigger =
-                        backStackEntry.savedStateHandle.getStateFlow("focusSearch", 0L).collectAsState().value
-                    SearchScreen(
-                        onBackClick = { navController.popBackStack() },
-                        onAnimeClick = { animeId, mediaType ->
-                            navController.navigate(Screen.Details.createRoute(mediaType, animeId))
-                        },
-                        focusTrigger = focusTrigger
-                    )
+                composable(Screen.Search.route) {
+                    SourceCatalogScreen()
                 }
 
                 composable(Screen.WatchLater.route) {

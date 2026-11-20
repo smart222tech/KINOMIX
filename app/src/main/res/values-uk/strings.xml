@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OpenStream</string>
+    <string name="app_name">KINOMIX</string>
     <string name="download_channel_name">Завантаження</string>
     <string name="nav_home">Головна</string>
     <string name="nav_search">Пошук</string>
@@ -386,8 +386,8 @@
     <string name="st_restored_counts">Відновлено: %1$s</string>
     <string name="st_restored_settings">Налаштування відновлено; бібліотека вже була актуальною</string>
     <string name="st_could_not_restore">Не вдалося відновити файл</string>
-    <string name="st_not_backup">Це не резервна копія OpenStream</string>
-    <string name="st_backup_newer">Цю копію створено в новіший версії OpenStream</string>
+    <string name="st_not_backup">Це не резервна копія KINOMIX</string>
+    <string name="st_backup_newer">Цю копію створено в новіший версії KINOMIX</string>
     <string name="st_merge_note">Об’єднується; нічого на пристрої не видаляється</string>
     <string name="st_export_diag">Експорт діагностики</string>
     <string name="st_diag_hint">Відомості про пристрій і недавній журнал для звітів про помилки</string>
@@ -407,15 +407,15 @@
     <string name="st_could_not_github">Не вдалося зв’язатися з GitHub. Перевірте з’єднання та спробуйте знову.</string>
     <string name="st_could_not_catalog">Не вдалося зв’язатися з каталогом</string>
     <string name="st_android_confirm_update">Android попросить підтвердити оновлення. Історія, збережені тайтли та завантаження збережуться.</string>
-    <string name="st_allow_install_note">Спочатку дозвольте OpenStream встановлювати оновлення, потім поверніться й натисніть Встановити.</string>
+    <string name="st_allow_install_note">Спочатку дозвольте KINOMIX встановлювати оновлення, потім поверніться й натисніть Встановити.</string>
     <string name="st_storage_help">Сховище та допомога</string>
     <string name="st_on_device">На цьому пристрої</string>
     <string name="st_crash_include">Містить %1$d звіт про збій</string>
     <string name="st_repo_data_note">Репозиторії містять дані, а не код</string>
-    <string name="st_repo_data_body">Розширення лише вибирає та налаштовує резолвер, уже вбудований в OpenStream, тому сторонній список не може виконувати свій код на пристрої.</string>
+    <string name="st_repo_data_body">Розширення лише вибирає та налаштовує резолвер, уже вбудований в KINOMIX, тому сторонній список не може виконувати свій код на пристрої.</string>
     <string name="st_source_install_note">Установіть хоча б одне розширення-джерело, інакше відтворювати буде нічого.</string>
     <string name="st_extensions_data_only">Розширення — лише дані: вони налаштовують резолвери з застосунку й не можуть виконувати код.</string>
-    <string name="st_race_note">OpenStream при натисканні Дивитися опитує всі ввімкнені джерела й залишає найшвидший результат.</string>
+    <string name="st_race_note">KINOMIX при натисканні Дивитися опитує всі ввімкнені джерела й залишає найшвидший результат.</string>
     <string name="st_add_repo_hint">Додайте репозиторій або доповнення Stremio</string>
     <string name="st_add_repository">Додати репозиторій</string>
     <string name="st_repo_placeholder">Вставте посилання на index.json або manifest.json доповнення Stremio (посилання stremio:// теж працюють)</string>
@@ -482,8 +482,8 @@
     <string name="pf_keep_one">Залиште хоча б один профіль</string>
     <string name="pf_this_history">Історія цього профілю, «Продовжити перегляд» і позиції</string>
     <string name="pf_clear_profile_history">Це очищає історію перегляду й точки продовження, включно з «Продовжити перегляд».</string>
-    <string name="pf_welcome">Ласкаво просимо до OpenStream</string>
-    <string name="pf_thanks">Дякуємо, що спробували OpenStream.</string>
+    <string name="pf_welcome">Ласкаво просимо до KINOMIX</string>
+    <string name="pf_thanks">Дякуємо, що спробували KINOMIX.</string>
     <string name="pf_needs_playback">Поки відтворюється не все</string>
     <string name="li_your_lists">Ваші списки</string>
     <string name="li_new_list">Новий список</string>
@@ -529,9 +529,9 @@
     <string name="up_attention">Потрібна увага</string>
     <string name="up_source_code">Вихідний код</string>
     <string name="up_website">Сайт</string>
-    <string name="up_version_format">OpenStream %1$s</string>
-    <string name="we_title">Ласкаво просимо до OpenStream</string>
-    <string name="we_body">OpenStream при натисканні Дивитися опитує всі ввімкнені джерела й залишає найшвидший результат.</string>
+    <string name="up_version_format">KINOMIX %1$s</string>
+    <string name="we_title">Ласкаво просимо до KINOMIX</string>
+    <string name="we_body">KINOMIX при натисканні Дивитися опитує всі ввімкнені джерела й залишає найшвидший результат.</string>
     <string name="we_offline_note">Завантажте серії зі сторінки будь-якого шоу та дивіться їх без з’єднання.</string>
     <string name="ps_born">Народився %1$s</string>
     <string name="ps_known_for">Відомий за</string>
@@ -552,7 +552,7 @@
     <string name="er_vidking_integrity">Дані Vidking не пройшли перевірку цілісності</string>
     <string name="er_vidking_empty">Vidking повернув порожні дані</string>
     <string name="er_subsource_no_token">SubSource не видав токен завантаження</string>
-    <string name="er_tmdb_links">OpenStream відкриває посилання TMDB на фільми та серіали</string>
+    <string name="er_tmdb_links">KINOMIX відкриває посилання TMDB на фільми та серіали</string>
     <string name="er_offline_short">Ви офлайн</string>
     <string name="er_download_started">Завантаження. Знайдіть його в Завантаженнях.</string>
     <string name="er_downloading_update">Завантаження оновлення</string>
@@ -694,7 +694,7 @@
     <string name="dl_progress_full">%1$d%% · %2$s із %3$s</string>
     <string name="dl_progress_short">%1$d%% · %2$s</string>
     <string name="dl_saved_suffix">%1$s · зберігається з кожним завантаженням</string>
-    <string name="up_latest_version">OpenStream %1$s — остання версія.</string>
+    <string name="up_latest_version">KINOMIX %1$s — остання версія.</string>
     <string name="up_released_on">Випущено %1$s</string>
     <string name="up_whats_in">Що нового у %1$s</string>
     <string name="up_starting_download">Починаємо завантаження…</string>
@@ -725,7 +725,7 @@
     <string name="st_group_pip">Картинка в картинці</string>
     <string name="st_pip_footer">Кнопка «Дивитися/Пауза» завжди посередині. Android показує не більше трьох кнопок.</string>
     <string name="st_crash_include_other">Містить %1$d звітів про збій</string>
-    <string name="up_version_build">OpenStream %1$s (%2$d)</string>
+    <string name="up_version_build">KINOMIX %1$s (%2$d)</string>
     <string name="cd_rated_format">Рейтинг %1$s з 10</string>
 
     <!-- Round 3: решта рядків -->
@@ -855,7 +855,7 @@
     <string name="dl_save_to_storage_failed">Не вдалося зберегти в пам’ять</string>
     <string name="local_import_files">Імпортувати відео</string>
     <string name="local_no_files_title">Немає локальних відео</string>
-    <string name="local_no_files_body">Імпортуйте відеофайли з пристрою, щоб дивитися їх в OpenStream</string>
+    <string name="local_no_files_body">Імпортуйте відеофайли з пристрою, щоб дивитися їх в KINOMIX</string>
     <string name="local_file">Локальне відео</string>
     <string name="local_delete_confirm_title">Прибрати локальне відео?</string>
     <string name="local_delete_confirm_body">Воно лише зникне з цього списку. Файл залишиться на пристрої.</string>
@@ -871,7 +871,7 @@
     <string name="dl_save_in_progress">Це відео вже зберігається в «Завантаження»</string>
     <string name="dl_storage_permission_needed">Дозвольте доступ до пам’яті, щоб зберігати відео в папку «Завантаження»</string>
     <string name="dl_save_unsupported">Це завантаження не можна зберегти одним відеофайлом</string>
-    <string name="dl_save_protected">Цей потік захищено, тож він відтворюється лише в OpenStream</string>
+    <string name="dl_save_protected">Цей потік захищено, тож він відтворюється лише в KINOMIX</string>
     <plurals name="local_import_success">
         <item quantity="one">Імпортовано %1$d відео</item>
         <item quantity="few">Імпортовано %1$d відео</item>

@@ -80,6 +80,12 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".presentation.player.SourcePlaybackActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.OpenStream" />
+
         <service
             android:name=".data.service.HlsDownloadService"
             android:exported="false"
