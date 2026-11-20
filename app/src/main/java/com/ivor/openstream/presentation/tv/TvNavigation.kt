@@ -136,9 +136,7 @@ private fun TvAppScaffold(navController: NavHostController) {
             }
 
             composable(TvDestination.SEARCH.route) {
-                TvSearchScreen(
-                    onTitleClick = { animeId, mediaType -> navController.navigate(TvRoutes.details(mediaType, animeId)) }
-                )
+                SourceCatalogScreen()
             }
 
             composable(TvDestination.SAVED.route) {
