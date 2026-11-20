@@ -27,7 +27,7 @@ class InternetArchiveCatalogProvider @Inject constructor(
         id = "internet-archive",
         name = "Internet Archive",
         baseUrl = "https://archive.org",
-        searchUrlTemplate = "https://archive.org/advancedsearch.php?q={query}&fl[]=identifier,title,year,description&rows=30&page=1&output=json",
+        searchUrlTemplate = "https://archive.org/advancedsearch.php?q={query}&fl[]=identifier&fl[]=title&fl[]=year&fl[]=description&rows=30&page=1&output=json",
         cardSelector = "a",
         titleSelector = "a",
         linkSelector = "a"
