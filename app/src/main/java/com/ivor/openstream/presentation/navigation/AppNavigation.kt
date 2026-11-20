@@ -293,16 +293,8 @@ fun AppNavigation(
                     SourceCatalogScreen()
                 }
 
-                composable(Screen.Search.route) { backStackEntry ->
-                    val focusTrigger =
-                        backStackEntry.savedStateHandle.getStateFlow("focusSearch", 0L).collectAsState().value
-                    SearchScreen(
-                        onBackClick = { navController.popBackStack() },
-                        onAnimeClick = { animeId, mediaType ->
-                            navController.navigate(Screen.Details.createRoute(mediaType, animeId))
-                        },
-                        focusTrigger = focusTrigger
-                    )
+                composable(Screen.Search.route) {
+                    SourceCatalogScreen()
                 }
 
                 composable(Screen.WatchLater.route) {
